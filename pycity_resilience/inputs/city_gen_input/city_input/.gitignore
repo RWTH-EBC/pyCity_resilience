@@ -1,0 +1,11 @@
+# Ignore the following files in GIT #
+######################################
+*
+
+
+#  Except
+!.gitignore
+!city_2_build.txt
+!city_2_build.xlsx
+!city_clust_simple.txt
+!city_clust_simple.xlsx

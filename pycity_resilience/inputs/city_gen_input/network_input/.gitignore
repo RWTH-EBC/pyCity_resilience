@@ -1,0 +1,9 @@
+# Ignore the following files in GIT #
+######################################
+*
+
+
+#  Except
+!.gitignore
+!city_clust_simple_networks.txt
+!city_clust_simple_networks.xlsx

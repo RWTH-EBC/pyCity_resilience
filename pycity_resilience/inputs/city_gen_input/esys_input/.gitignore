@@ -1,0 +1,11 @@
+# Ignore the following files in GIT #
+######################################
+*
+
+
+#  Except
+!.gitignore
+!city_clust_simple_enersys.txt
+!city_clust_simple_enersys.xlsx
+!city_2_build_enersys.txt
+!city_2_build_enersys.xlsx

@@ -1,0 +1,4 @@
+# Ignore the following files in GIT #
+######################################
+
+all_test_execute.py

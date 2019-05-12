@@ -1,0 +1,31 @@
+language: python
+
+python:
+  - 2.7
+  - 3.6
+
+install:
+  - pip install --upgrade pip setuptools wheel
+  - pip install --only-binary=numpy,scipy numpy scipy
+  - pip install networkx
+  - pip install shapely
+  - pip install pyproj
+  - pip install deap
+  - pip install scoop
+  - pip install pyDOE
+  - pip install scikit-learn
+  - pip install -e git+git@github.com:RWTH-EBC/TEASER.git@issue297_vdi_core_dev_jsc#egg=teaser
+  - pip install -e git+git@github.com:RWTH-EBC/uesgraphs.git#egg=uesgraphs
+  - pip install -e git+git@github.com:RWTH-EBC/richardsonpy.git#egg=richardsonpy
+  - pip install -e git+git@github.com:RWTH-EBC/pyCity.git@development#egg=pyCity
+  - pip install -e git+git@github.com:RWTH-EBC/pyCity_calc.git@development#egg=pyCity_calc
+  - pip install -e .
+  - pip install pytest-cov
+  - pip install coveralls
+  - pip install flake8
+
+script:
+  - py.test
+
+after_success:
+  - coveralls

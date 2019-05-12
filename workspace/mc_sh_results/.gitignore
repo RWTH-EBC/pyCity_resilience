@@ -1,0 +1,6 @@
+# Ignore the following files in GIT #
+######################################
+*
+
+#  Except
+!.gitignore

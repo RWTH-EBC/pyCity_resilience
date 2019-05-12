@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/JSchiefelbein/pyCity_resilience.svg?token=ssfy4ps1Qm5kvs5yAxfm&branch=master)](https://travis-ci.com/JSchiefelbein/pyCity_resilience.svg?token=ssfy4ps1Qm5kvs5yAxfm&branch=master)
+[![Build Status](https://travis-ci.com/RWTH-EBC/pyCity_resilience.svg?token=ssfy4ps1Qm5kvs5yAxfm&branch=master)](https://travis-ci.com/RWTH-EBC/pyCity_resilience.svg?token=ssfy4ps1Qm5kvs5yAxfm&branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 # pyCity_resilience
@@ -6,8 +6,8 @@ pyCity addon to identify resilient energy system configurations
 
 ## Contributing
 
-1. Clone repository: `git clone git@github.com:RWTH-EBC/pyCity_resilience.git` 
-(for SSH usage) 
+1. Clone repository: `git clone git@github.com:RWTH-EBC/pyCity_resilience.git`
+(for SSH usage)
    otherwise, use https path: `git clone https://github.com/RWTH-EBC/pyCity_resilience.git`
 2. Create issue on  [https://github.com/RWTH-EBC/pyCity_resilience/issues](https://github.com/RWTH-EBC/pyCity_resilience/issues)
 Create your feature branch: `git checkout -b issueXY_explanation`
@@ -46,7 +46,7 @@ and
 
 `pip install -e 'your_path_to_pycity_setup_folder'`
 
-In your current Python path does not point at your Python installation, you 
+In your current Python path does not point at your Python installation, you
 can directly call your Python interpreter and install the packages via pip, e.g.:
 
     "<path_to_your_python_distribution>\Python.exe" -m pip install -e <your_path_to_uesgraph_setup>
@@ -73,14 +73,14 @@ Further required packages are:
 
 ### Shapely installation on Windows machine
 
-On Windows systems, pip install of shapely (or pyproj etc.) will probably raise an error during installation. 
+On Windows systems, pip install of shapely (or pyproj etc.) will probably raise an error during installation.
 However, there is a workaround with precompiled Python packages.
 
 -  Go to  [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 -  Search for Python package, you could not install via pip (such as shapely)
 -  Choose download file depending on your Python version and machine (e.g. cp34 stands for Python 3.4; win32 for 32 bit; amd64 for 64 bit)
 -  Download wheel file and remember its path
--  Open a command prompt within your Python environment 
+-  Open a command prompt within your Python environment
 -  Type: ''pip install <path_to_your_whl_file>'
 -  Python packages should be installed
 
@@ -92,7 +92,7 @@ pyCity_resilience is released under the [MIT License](https://opensource.org/lic
 
 ## Acknowledgements
 
-Grateful acknowledgement is made for financial support by Federal Ministry for Economic Affairs and Energy (BMWi), 
+Grateful acknowledgement is made for financial support by Federal Ministry for Economic Affairs and Energy (BMWi),
 promotional references 03ET1138D and 03ET1381A.
 
 <img src="http://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=4BD60B6CD6337CDB6DE21DC1F3D6FEC5?__blob=poster&v=2)" width="200">

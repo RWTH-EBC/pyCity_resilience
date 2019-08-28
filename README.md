@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/RWTH-EBC/pyCity_resilience.svg?token=ssfy4ps1Qm5kvs5yAxfm&branch=master)](https://travis-ci.com/RWTH-EBC/pyCity_resilience)
+[![Build Status](https://travis-ci.org/RWTH-EBC/pyCity_resilience.svg?branch=master)](https://travis-ci.org/RWTH-EBC/pyCity_resilience)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 # pyCity_resilience

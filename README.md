@@ -86,6 +86,13 @@ However, there is a workaround with precompiled Python packages.
 
 Under Linux and Mac OS pip installation of shapely and pyproj should work without problems.
 
+## How to cite pyCity_resilience
+
++ Schiefelbein, Jan (2019), Optimized Placement of Thermo-Electric Energy Systems in City Districts under Uncertainty
+[Entry RWTH Aachen University Publication Server](https://publications.rwth-aachen.de/record/764560),
+[PDF](https://publications.rwth-aachen.de/record/764560/files/764560.pdf),
+[bibtex](https://github.com/RWTH-EBC/pyCity_resilience/tree/master/doc/thesis_schiefelbein_2019.bib)
+
 ## License
 
 pyCity_resilience is released under the [MIT License](https://opensource.org/licenses/MIT)

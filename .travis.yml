@@ -21,11 +21,11 @@ install:
   - pip install scoop
   - pip install pyDOE
   - pip install scikit-learn
-  - pip install -e git+git@github.com:RWTH-EBC/TEASER.git@issue297_vdi_core_dev_jsc#egg=teaser
-  - pip install -e git+git@github.com:RWTH-EBC/uesgraphs.git#egg=uesgraphs
-  - pip install -e git+git@github.com:RWTH-EBC/richardsonpy.git#egg=richardsonpy
-  - pip install -e git+git@github.com:RWTH-EBC/pyCity.git@master#egg=pyCity
-  - pip install -e git+git@github.com:RWTH-EBC/pyCity_calc.git@master#egg=pyCity_calc
+  - pip install -e git+https://github.com/RWTH-EBC/TEASER.git@issue297_vdi_core_dev_jsc#egg=teaser
+  - pip install -e git+https://github.com/RWTH-EBC/uesgraphs.git#egg=uesgraphs
+  - pip install -e git+https://github.com/RWTH-EBC/richardsonpy.git#egg=richardsonpy
+  - pip install -e git+https://github.com/RWTH-EBC/pyCity.git@master#egg=pyCity
+  - pip install -e git+https://github.com/RWTH-EBC/pyCity_calc.git@master#egg=pyCity_calc
   - pip install -e .
   - pip install pytest-cov
   - pip install coveralls
